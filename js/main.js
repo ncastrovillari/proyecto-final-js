@@ -15,3 +15,4 @@ document.write("<br>" + "<br>" + "Retención a cuenta de Ganancias del 45%: " + 
 
 let totalPagar = gastoPesos + impuestoPais + retencion
 document.write("<br>" + "<br>" + "Total a pagar en pesos: " + totalPagar)
+

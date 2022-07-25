@@ -16,16 +16,20 @@ class producto {
     }
 
 }
+
 const productos = [];
 productos.push(new producto(prompt("Ingrese producto"), prompt("Ingrese precio en dólares")));
 productos.push(new producto(prompt("Ingrese producto"), prompt("Ingrese precio en dólares")));
 productos.push(new producto(prompt("Ingrese producto"), prompt("Ingrese precio en dólares")));
 productos.push(new producto(prompt("Ingrese producto"), prompt("Ingrese precio en dólares")));
+
 for (const producto of productos) {
     let div = document.createElement("div");
     div.innerHTML = `<h3>${producto.nombre}</h3>
                      <p>${producto.precio}</p>
+                     <p>Total:</p>
                      <hr>`;
     document.body.appendChild(div);
 }
 
+document.write(valorProducto)

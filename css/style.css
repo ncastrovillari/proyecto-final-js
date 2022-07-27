@@ -2,4 +2,11 @@ h1 {
     text-align: center;
 }
 
-h3 {text-align: center;}
+h2 {
+    text-align: center;
+    background-color: rgb(177, 219, 177);
+}
+
+h3 {
+    text-align: left;
+}
